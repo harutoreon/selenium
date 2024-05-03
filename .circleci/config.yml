@@ -8,6 +8,10 @@ jobs:
       - checkout
       - run:
           command: ruby --version
+      - run:
+          command: gem --version
+      - run:
+          command: bundler --version
 
 workflows:
   version: 2
