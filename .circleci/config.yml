@@ -9,6 +9,8 @@ jobs:
       - browser-tools/install-browser-tools
       - checkout
       - run:
+          command: bundle install
+      - run:
           command: bundle exec rspec
 
 workflows:
