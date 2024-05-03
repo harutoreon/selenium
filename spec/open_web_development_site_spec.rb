@@ -15,9 +15,9 @@ RSpec.describe 'Open web page' do
     expect(@driver.title).to include('harutoreon')
   end
 
-  it 'Containing "オブジェクト指向スクリプト言語 Ruby" in the title.' do
-    @driver.get('https://www.ruby-lang.org/ja/')
-    expect(@driver.title).to include('オブジェクト指向スクリプト言語 Ruby')
+  it 'Containing "Docker" in the title.' do
+    @driver.get('https://hub.docker.com/')
+    expect(@driver.title).to include('Docker')
   end
 
   it 'Containing "DeepL" in the title.' do
