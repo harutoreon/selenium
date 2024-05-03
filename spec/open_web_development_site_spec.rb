@@ -15,9 +15,9 @@ RSpec.describe 'Open web page' do
     expect(@driver.title).to include('harutoreon')
   end
 
-  it 'Containing "ChatGPT" in the title.' do
-    @driver.get('https://chat.openai.com/')
-    expect(@driver.title).to include('ChatGPT')
+  it 'Containing "Docker" in the title.' do
+    @driver.get('https://hub.docker.com/')
+    expect(@driver.title).to include('Docker')
   end
 
   it 'Containing "DeepL" in the title.' do
