@@ -1,5 +1,5 @@
 example_id                                    | status | run_time     |
 --------------------------------------------- | ------ | ------------ |
-./spec/open_web_development_site_spec.rb[1:1] | passed | 4.57 seconds |
-./spec/open_web_development_site_spec.rb[1:2] | passed | 5.73 seconds |
-./spec/open_web_development_site_spec.rb[1:3] | passed | 6.2 seconds  |
+./spec/open_web_development_site_spec.rb[1:1] | passed | 4.62 seconds |
+./spec/open_web_development_site_spec.rb[1:2] | passed | 5.23 seconds |
+./spec/open_web_development_site_spec.rb[1:3] | passed | 5.6 seconds  |
